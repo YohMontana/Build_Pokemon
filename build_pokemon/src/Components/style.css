@@ -48,6 +48,7 @@ body{
 
 .right-content img{
   margin: 2rem;
+  height: 180px;
 }
 
 .right-content h1{
@@ -56,10 +57,10 @@ body{
   letter-spacing: 1px;
 }
 .abilities{
-  width: 30%;
+  width: 70%;
   margin:auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 1rem;
 }
@@ -70,6 +71,7 @@ body{
   padding: 0.5rem;
   font-size: 12px;
   border-radius: 8px;
+  margin-left: 1rem;
 }
 
 .base-stat{

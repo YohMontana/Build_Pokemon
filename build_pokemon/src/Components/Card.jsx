@@ -1,11 +1,10 @@
 import React from "react";
-const Card = ({ pokemon, loading, infoPokemon }) => {
-  console.log(pokemon);
+const Card = ({pokemon,loading,infoPokemon}) => {
+ console.log(pokemon)
   return (
     <>
-      {loading ? (
-        <h1>Loading...</h1>
-      ) : (
+      {
+      loading ? <h1>Loading...</h1> :
         pokemon.map((item) => {
           return (
             <>
@@ -15,10 +14,10 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
                 <h2>{item.name}</h2>
               </div>
             </>
-          );
+          )
         })
-      )}
+      }
     </>
-  );
-};
+  )
+}
 export default Card;
